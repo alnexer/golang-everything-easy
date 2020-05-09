@@ -1,7 +1,8 @@
 package GolangEasy
 
 import (
-    "math/rand"
+	"math/rand"
+	"time"
 )
 //all alphabet
 var UpLetters = []rune("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
@@ -28,4 +29,7 @@ func RandomWord(n int, tpe string) string {
 		}
 	}
     return string(b)
+}
+func main(){
+	rand.Seed(time.Now().UnixNano())
 }
