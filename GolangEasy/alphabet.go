@@ -1,7 +1,6 @@
 package GolangEasy
 
 import (
-    "fmt"
     "math/rand"
 )
 //all alphabet
